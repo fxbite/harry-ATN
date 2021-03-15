@@ -97,7 +97,7 @@
      <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 text-center">
-          <img src="assets/images/logo.png" width="450" height="250"
+          <img src="assets/logo.png" width="450" height="250"
           class="img-fluid watch-img">
         </div>
         <div class="col-lg-7 text-lg-right  text-center text-color about-text">

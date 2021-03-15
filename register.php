@@ -4,12 +4,12 @@
 <?php
     require "header.php"
 ?>
-    <div class="register-photo" style="background-image: url(&quot;assets/images/register.jpeg&quot;);background-size: cover;height: 900px;">
+    <div class="register-photo" style="background-image: url(&quot;assets/register.jpeg&quot;);background-size: cover;height: 900px;">
         <div class="form-container" style="margin-top: 90px;">
-            <div class="image-holder" style="background-image: url(&quot;assets/images/img-2.jpeg&quot;);"></div>
+            <div class="image-holder" style="background-image: url(&quot;assets/img-2.jpeg&quot;);"></div>
             <form action="register_submit.php" method="POST" style="background-color: #f7f7f7;">
                 <h1 class="text-center" style="font-family: Gugi, cursive;">ATN Toys Kingdom</h1>
-                <div class="text-center"><img src="./assets/images/logo.png" style="width: 35px"/></div>
+                <div class="text-center"><img src="./assets/logo.png" style="width: 35px"/></div>
                 <p class="text-center" style="font-size: 20px;font-family: Gugi, cursive;">Create an Account</p>
                 <p class="text-center">
                 <?php
