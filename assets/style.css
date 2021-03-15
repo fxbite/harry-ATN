@@ -26,16 +26,6 @@ body{
     url('images/1.jpg');
     background-size: cover;
 }
-.carousel-image-2{
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('images/2.jpg');
-    background-size: cover;
-}
-.carousel-image-3{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('images/3.jpg');
-    background-size: cover;
-}
 .h-color{
     color:#fff;
 
@@ -98,7 +88,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgb(255, 252, 252);
   }
   .slide-btn:hover, .slide-btn:focus, .slide-btn:active {
     
