@@ -25,6 +25,8 @@ body{
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), 
     url('images/1.jpg');
     background-size: cover;
+    width: 1920px;
+    height: 971px;
 }
 .h-color{
     color:#fff;
@@ -35,7 +37,7 @@ body{
     color: rgb(255, 255, 255);
 }
 .btn-color:hover{
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 /* Wobble Vertical */
 @-webkit-keyframes slide-btn {
