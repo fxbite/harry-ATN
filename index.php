@@ -132,7 +132,7 @@
         $moredetail ="product-page.php?id=".$row['pdID']; ?>
             <div class="row">
            <div class="col-sm-6 ">
-              <div class="seller-item"><a href="<?php echo $moredetail; ?>"></a>
+              <div class="seller-item">
                 <img src="<?php echo $row['pdImage']; ?>" alt="" class="img-fluid photo">
                 <p><?php echo $row['pdName']; ?></p>
                </div>
