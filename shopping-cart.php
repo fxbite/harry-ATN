@@ -16,7 +16,6 @@
                         $query = "select * from products";
                         $result = pg_query($con, $query);
                         $row = pg_fetch_assoc($result);
-                        $image_link = "assets/".$row['pdImage'];
                     ?> 
                     <div class="row no-gutters">
                         <div class="col-md-12 col-lg-8">
@@ -24,7 +23,7 @@
                                 <div class="product">
                                     <div class="row justify-content-center align-items-center">
                                         <div class="col-md-3">
-                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="assets/img/tech/image2.jpg"></div>
+                                            <div class="product-image"><img class="img-fluid d-block mx-auto image" src="<?php echo $row['pdImage'] ?>"></div>
                                         </div>
                                         <div class="col-md-5 product-info"><a class="product-name" href="#"><?php echo $row['pdName'] ?></a>
                                             <div class="product-specs">

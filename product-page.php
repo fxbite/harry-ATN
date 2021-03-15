@@ -18,10 +18,9 @@
                     $query = "select * from products where pdID=$id";
                     $result = pg_query($con, $query);
                     $row = pg_fetch_assoc($result);
-                    $image_link = "assets/".$row['pdImage'];
                     ?>
 
-                        <img class="img-fluid" <?php echo "src='$image_link'"; ?> >
+                        <img class="img-fluid" src="<?php echo $row['pdImage']; ?>">
 
                             </div>
                             <div class="col-md-6">
