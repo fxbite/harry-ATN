@@ -2,57 +2,44 @@
   require "header.php";
 ?>
       <!-- SLIDER -->
-      <section id="main">
-        <div id="Carousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#Carousel" data-slide-to="1"></li>
-            <li data-target="#Carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item carousel-image-1 active">
-              <div class="container">
-                <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                  <h1 class="display-3 h-color">Heading One</h1>
-                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                    quod aliquid inventore vero perspiciatis.</p>
-                  <a href="register.php" class="btn btn-color slide-btn btn-lg">Sign Up Now</a>
-                </div>
-              </div>
-            </div>
-    
-            <div class="carousel-item carousel-image-2">
-              <div class="container">
-                <div class="carousel-caption d-none d-sm-block mb-5">
-                  <h1 class="display-3 h-color">Heading Two</h1>
-                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                    quod aliquid inventore vero perspiciatis.</p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Learn More</a>
-                </div>
-              </div>
-            </div>
-    
-            <div class="carousel-item carousel-image-3">
-              <div class="container">
-                <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                  <h1 class="display-3 h-color">Heading Three</h1>
-                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                    quod aliquid inventore vero perspiciatis.</p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Learn More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <a href="#Carousel" data-slide="prev" class="carousel-control-prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-    
-          <a href="#Carousel" data-slide="next" class="carousel-control-next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-        </div>
-      </section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
       <!--End of slider-->
       <!--Service Section==========-->
       <section class="services py-5 text-center">
@@ -97,7 +84,7 @@
      <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 text-center">
-          <img src="assets/logo.png" width="450" height="250"
+          <img src="assets/images/logo.png" width="450" height="250"
           class="img-fluid watch-img">
         </div>
         <div class="col-lg-7 text-lg-right  text-center text-color about-text">
