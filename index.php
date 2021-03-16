@@ -93,7 +93,7 @@
         $con = ConnectDB();
         $query = "SELECT * FROM products ORDER BY 'pdID' ASC ";
         $result = pg_query($con, $query);                                    
-        while($row = pg_fetch_assoc($result)){
+        while($row = pg_fetch_array($result)){
         $moredetail ="product-page.php?id=".$row['pdID']; ?>
             <div class="row">
            <div class="col-sm-6 ">
